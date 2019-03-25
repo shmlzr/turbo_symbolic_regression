@@ -13,11 +13,13 @@ Two examples are given:
 
 
 INPUT.
-    - script_simple.py: The target data is produced within the script, no input is needed.
+
+    - script_simple.py: The target data is produced within the script, no input is needed.  
     - script_turbulence.py: Data is loaded from /data/PH10595_frozen_var.p
 
 
 OUTPUT.
+
     Both scripts output ...
     - strings of the models saved in /data/models/<NAME>_model_str.txt
     - figures of the best model results in /data/fig/<NAME>_model_result.png
