@@ -3,8 +3,6 @@ Turbo Symbolic Regression
 ================
 Tools for symbolic regression to discover turbulence models from data.
 
-Examples. 
-================
 
 Two examples are given:
 
