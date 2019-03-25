@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45a24f14-5600-48ee-9195-504c32d19508" name="Default Changelist" comment="" />
+    <list default="true" id="45a24f14-5600-48ee-9195-504c32d19508" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/PH10595_frozen_var.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/candidate_libraries_PH10595_C_var1110000_exp00000110_fun00000.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/data_i.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fig/SIMPLE_model_result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fig/SIMPLE_model_vs_mse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fig/TURBULENCE_model_result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fig/TURBULENCE_model_vs_mse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/SIMPLE_model_str.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/TURBULENCE_model_str.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/script_simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/script_turbulence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,26 +29,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/script_simple.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-              <folding>
-                <element signature="e#236#254#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="301">
+              <caret line="111" column="21" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/script_turbulence.py">
+        <entry file="file://$PROJECT_DIR$/script_turbulence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="204" column="83" selection-start-line="204" selection-start-column="83" selection-end-line="204" selection-end-column="83" />
-              <folding>
-                <element signature="e#235#254#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="451" column="78" selection-start-line="451" selection-start-column="78" selection-end-line="451" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -48,8 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dataprop</find>
-      <find>calc_Sij_Wij</find>
       <find>self</find>
       <find>eval_model</find>
       <find>reduce_</find>
@@ -78,6 +95,8 @@
       <find>elasticnet</find>
       <find>alphas</find>
       <find>model_structures</find>
+      <find>data</find>
+      <find>VIF</find>
     </findStrings>
     <replaceStrings>
       <replace>dataproc</replace>
@@ -103,13 +122,15 @@
         <option value="$PROJECT_DIR$/examples/test.py" />
         <option value="$PROJECT_DIR$/turbosparsereg/util/util.py" />
         <option value="$PROJECT_DIR$/examples/README.txt" />
-        <option value="$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py" />
         <option value="$PROJECT_DIR$/turbosparsereg/__init__.py" />
         <option value="$PROJECT_DIR$/turbosparsereg/dataprocessing/__init__.py" />
-        <option value="$PROJECT_DIR$/turbosparsereg/methods/sr_elasticnet.py" />
-        <option value="$PROJECT_DIR$/turbosparsereg/methods/symbolic_regression.py" />
         <option value="$PROJECT_DIR$/examples/script_simple.py" />
         <option value="$PROJECT_DIR$/examples/script_turbulence.py" />
+        <option value="$PROJECT_DIR$/turbosparsereg/methods/symbolic_regression.py" />
+        <option value="$PROJECT_DIR$/turbosparsereg/methods/sr_elasticnet.py" />
+        <option value="$PROJECT_DIR$/script_simple.py" />
+        <option value="$PROJECT_DIR$/script_turbulence.py" />
+        <option value="$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py" />
       </list>
     </option>
   </component>
@@ -128,6 +149,21 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="turbo_symbolic_regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turbo_symbolic_regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turbo_symbolic_regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turbo_symbolic_regression" type="462c0819:PsiDirectoryNode" />
+              <item name="turbosparsereg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turbo_symbolic_regression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turbo_symbolic_regression" type="462c0819:PsiDirectoryNode" />
+              <item name="turbosparsereg" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="turbo_symbolic_regression" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
@@ -177,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.script_turbulence">
+  <component name="RunManager" selected="Python.script_simple">
     <configuration name="plot_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="turbo_symbolic_regression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,11 +240,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/script_simple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,11 +258,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/script_turbulence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_turbulence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,8 +322,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.script_turbulence" />
         <item itemvalue="Python.script_simple" />
+        <item itemvalue="Python.script_turbulence" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.plot_classifier" />
         <item itemvalue="Python.plot_classifier" />
@@ -331,9 +367,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49969345" visible="true" weight="0.3296433" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49969345" weight="0.3296433" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50030655" side_tool="true" weight="0.37546012" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49969345" weight="0.37546012" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.49969345" visible="true" weight="0.37515375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,16 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="e#79#92#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -510,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="470" lean-forward="true" selection-start-line="470" selection-end-line="470" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/turbosparsereg/util/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
@@ -526,26 +538,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/turbosparsereg/methods/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbosparsereg/methods/sr_elasticnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="67" selection-start-line="113" selection-start-column="67" selection-end-line="113" selection-end-column="67" />
-          <folding>
-            <element signature="e#72#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbosparsereg/methods/symbolic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/script_turbulence.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -564,6 +556,64 @@
           <folding>
             <element signature="e#236#254#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbosparsereg/methods/sr_elasticnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="98" column="28" lean-forward="true" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbosparsereg/methods/symbolic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="e#55#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_turbulence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbosparsereg/dataprocessing/dataprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="451" column="78" selection-start-line="451" selection-start-column="78" selection-end-line="451" selection-end-column="78" />
         </state>
       </provider>
     </entry>
