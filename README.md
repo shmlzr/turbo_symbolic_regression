@@ -1,5 +1,5 @@
 
-Turbo Symbolic regression
+Turbo Symbolic Regression
 ================
 Tools for symbolic regression to discover turbulence models from data.
 
