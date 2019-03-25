@@ -14,12 +14,12 @@ Two examples are given:
 
 INPUT.
     - script_simple.py: The target data is produced within the script, no input is needed.
-    - script_turbulence.py: Data is loaded from /examples/data/PH10595_frozen_var.p
+    - script_turbulence.py: Data is loaded from /data/PH10595_frozen_var.p
 
 
 OUTPUT.
     Both scripts output ...
-    - strings of the models saved in /examples/models/<NAME>_model_str.txt
-    - figures of the best model results in fig/<NAME>_model_result.png
-    - figures of the model structure vs mean-squared error (MSE) in fig/<NAME>_model_vs_mse.png
+    - strings of the models saved in /data/models/<NAME>_model_str.txt
+    - figures of the best model results in /data/fig/<NAME>_model_result.png
+    - figures of the model structure vs mean-squared error (MSE) in /data/fig/<NAME>_model_vs_mse.png
 
