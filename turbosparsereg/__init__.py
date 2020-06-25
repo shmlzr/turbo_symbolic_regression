@@ -1,3 +1,4 @@
-from turbosparsereg.methods import *
-from turbosparsereg.dataprocessing import *
-from turbosparsereg.util import *
+from .methods import *
+from .dataprocessing import *
+from .util import *
+

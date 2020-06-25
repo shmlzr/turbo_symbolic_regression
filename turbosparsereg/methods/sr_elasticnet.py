@@ -10,7 +10,7 @@ from sklearn.linear_model.coordinate_descent import _alpha_grid
 from sklearn.exceptions import ConvergenceWarning
 import warnings as warn
 from turbosparsereg.methods.symbolic_regression import SymbolicRegression
-from sklearn.linear_model import ElasticNet
+from sklearn.linear_model import ElasticNet, MultiTaskElasticNet
 from sklearn.linear_model.base import LinearModel
 
 
@@ -115,10 +115,13 @@ class TSRElasticNet(LinearModel, RegressorMixin, SymbolicRegression):
                 eln.fit(x, y)
 
                 # Ignore over-regularized solutions
-                if not all(eln.coef_ == 0.0):
-                    model_structures.append(abs(eln.coef_) > 0.0)
+#                if not all(eln.coef_ == 0.0):
+#                model_structures.append(abs(eln.coef_) > 0.0)
+                model_structures.append(eln.coef_)
+
 
         # Only retain unique model structures
-        self.model_structures_ = np.unique(model_structures, axis=0)
+        #self.model_structures_ = np.unique(model_structures, axis=0)
+        self.model_structures_ = model_structures
 
         return self
