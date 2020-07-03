@@ -45,7 +45,8 @@ class SymbolicRegression:
         for ridge_alpha in self.ridge_alphas:
             print("Ridge alpha =", ridge_alpha, "\n")
 
-            for model_structure in self.model_structures_:
+            for i in range(num_candidates):
+                model_structure = self.model_structures_[i, :]
                 i_nonzero = np.where(model_structure)[0]
                 # Perform regression (OLS or RIDGE) on the active features only (nonzero coef)
                 tmp_ = np.zeros(num_candidates)

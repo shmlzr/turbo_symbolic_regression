@@ -115,13 +115,13 @@ class TSRElasticNet(LinearModel, RegressorMixin, SymbolicRegression):
                 eln.fit(x, y)
 
                 # Ignore over-regularized solutions
-#                if not all(eln.coef_ == 0.0):
-#                model_structures.append(abs(eln.coef_) > 0.0)
+    #            if not all(eln.coef_ == 0.0):
+    #                model_structures.append(abs(eln.coef_) > 0.0)
                 model_structures.append(eln.coef_)
 
 
         # Only retain unique model structures
-        #self.model_structures_ = np.unique(model_structures, axis=0)
-        self.model_structures_ = model_structures
+        self.model_structures_ = np.unique(model_structures, axis=0)
+        #self.model_structures_ = model_structures
 
         return self
